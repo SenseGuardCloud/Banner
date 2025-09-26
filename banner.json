@@ -1,0 +1,18 @@
+[{
+  "schemaVersion": 1,
+  "id": "2025-09-26-outage-001",
+  "enabled": true,
+  "severity": "critical",               // info | warning | critical
+  "message": "We’re experiencing an outage. Core features may be unavailable.",
+  "messageByLocale": {
+    "de-DE": "Wir haben aktuell eine Störung. Kernfunktionen sind evtl. nicht verfügbar."
+  },
+  "startsAt": "2025-09-26T07:20:00Z",
+  "endsAt": "2025-09-26T10:00:00Z",
+  "platforms": ["ios","android","web"], // omit or [] = all
+  "regions": ["EU","US"],               // omit or [] = all
+  "minAppVersion": "3.2.0",             // show only for >= this version
+  "maxAppVersion": null,                // or "3.9.9"
+  "updatedAt": "2025-09-26T07:25:00Z"
+}
+]
